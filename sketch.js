@@ -62,10 +62,10 @@ function draw() {
     
   //}
 
-p.x=p.position.x; p.y=p.position.y;
+
 if(keyDown(RIGHT_ARROW))
     {
-    Matter.Body.setPosition(body,{x:p.position.x+5,y:p.position.y+0})
+    Matter.Body.setPosition(plane.body,{x:plane.body.position.x+5,y:plane.body.position.y+0})
     }
 
   drawSprites()
